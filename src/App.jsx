@@ -11,7 +11,7 @@ const toggleSidebar = () => {
   return (
     <div> 
       {
-        isOpen ? <div className={`fixed top-0 bg-black h-32 w-20 transition-all duration-200 ease-in-out ${isOpen ? 'left-0' : '-left-[350px]'}`}>
+        isOpen ? <div className={`fixed top-0 bg-black h-32 w-[250px] transition-all duration-200 ease-in-out ${isOpen ? 'left-0' : '-left-[350px]'}`}>
          <p class="text-white" onClick={toggleSidebar}> close </p>
 </div> : 
            <button onClick={toggleSidebar} class="text-black mt-10">Toggle</button>
