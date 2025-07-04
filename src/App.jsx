@@ -9,38 +9,30 @@ const toggleSidebar = () => {
   setIsOpen(!isOpen);
 };
   return (
-    <div> 
+    <div class="min-h-80"> 
       {
-        isOpen ? <div className={`fixed top-0 bg-black h-32 w-[250px] transition-all duration-200 ease-in-out ${isOpen ? 'left-0' : '-left-[350px]'}`}>
-         <p class="text-white" onClick={toggleSidebar}> close </p>
-</div> : 
-           <button onClick={toggleSidebar} class="text-black mt-10">Toggle</button>
+        isOpen ? <div className={`static top-0 bg-gray-100 h-48 w-[120px] duration-200 ease-in ${isOpen ? 'left-0' : '-left-[200px]'}`}>
+         <p onClick={toggleSidebar} class="ml-4"> close </p>
+    </div> : 
+           <button onClick={toggleSidebar} class="text-black pl-2 pt-2">☰</button>
       }
       <div class="flex items-center justify-end pr-2 text-base sm:text-sm xl:text-base">
-        <p class="mr-2"> gmail </p>
-        <p> hình ảnh </p>
-        <img src="/info.png" class="w-4 mx-2"/>
-        <span class="rounded-full bg-pink-400 w-6 h-6 mt-1"> </span>
+        <a class="mr-2 cursor-pointer" target="_blacnk" rel="noopener noreferrer" href="http://gmail.com/"> gmail </a>
+         <a class="cursor-pointer" target="_blacnk" rel="noopener noreferrer" href="http://gmail.com/"> images </a>
+        <img src="/info.png" class="w-4 mx-3"/>
+        <span class="rounded-full bg-pink-400 w-6 h-6 mt-1 xl:mr-10 sm:mr-2"> </span>
       </div>
  <div class="flex flex-col items-center">
-      <img class="sm:w-[120px] sm:h-[120px] size-16 object-cover mb-5 mt-20 sm:w-30" src="/google.webp"/>
-      <div class="border border-solid border-gray-500 rounded-3xl flex items-center w-full py-2 shrink">
+      <img class="sm:w-[140px] sm:h-[140px] size-16 object-cover mb-5 mt-20 sm:w-30 xl:w-48 xl:h-48" src="/google.webp"/>
+      <div class="border border-solid border-gray-500 rounded-3xl flex items-center w-5/6 py-2 shrink sm:w-5/6 xl:w-3/5 xl:py-2">
         <img src="/search.png" class="w-3 h-3 mr-4 ml-2 object-cover"/>
-        <p class="text-pink-400 text-xs"> Tìm kiếm google hoặc nhập một url</p>
-        <div class="flex flex-row items-cente justify-end flex-1">
-          <img src="/voice.png" class="w-4 ml-15"/>
+        <p class="text-gray-400 text-[12px] max-w-96 w-72"> Tìm kiếm google hoặc nhập một url</p>
+        <div class="flex flex-row items-cente justify-end flex-1 pr-2">
+          <img src="/voice.png" class="w-3 ml-15 mr-3"/>
            <img src="/camera.jpg" class="w-5 mr-5"/>
         </div>
       </div>
 
-    <div class="sm:flex items-center justify-centergap-x-2 md:block">
-      <div class="bg-red-100 h-40 w-40 border border-solid border-black mt-8 md:bg-sky-400">
-
-      </div>
-       <div class="bg-red-100 h-40 w-40 border border-solid border-black rounded-xl mt-8 ml-2">
-
-      </div>
-    </div>
 
     </div>
 
