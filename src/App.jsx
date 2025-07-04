@@ -37,11 +37,11 @@ function App() {
         </div>
       </div>
 
-    <div class="sm:flex items-center gap-x-2 md:block">
+    <div class="sm:flex items-center justify-centergap-x-2 md:block">
       <div class="bg-red-100 h-40 w-40 border border-solid border-black mt-8 md:bg-sky-400">
 
       </div>
-       <div class="bg-red-100 h-40 w-40 border border-solid border-black rounded-xl mt-4">
+       <div class="bg-red-100 h-40 w-40 border border-solid border-black rounded-xl mt-8 ml-2">
 
       </div>
     </div>
