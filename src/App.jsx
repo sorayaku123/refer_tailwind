@@ -23,7 +23,7 @@ const toggleSidebar = () => {
         <span class="rounded-full bg-pink-400 w-6 h-6 mt-1 xl:mr-10 sm:mr-2"> </span>
       </div>
  <div class="flex flex-col items-center">
-      <img class="sm:w-[140px] sm:h-[140px] size-16 object-cover mb-5 mt-20 sm:w-30 xl:w-32 xl:h-32" src="/google.webp"/>
+      <img class="sm:w-[140px] sm:h-[140px] size-16 object-cover mb-5 mt-20 sm:w-30 xl:w-24 xl:h-24" src="/google.webp"/>
       <div class="border border-solid border-gray-500 rounded-3xl flex items-center w-5/6 py-2 shrink sm:w-5/6 xl:w-3/5 xl:py-2 shadow-md">
         <img src="/search.png" class="w-3 h-3 mr-4 ml-2 object-cover"/>
         <p class="text-gray-400 text-[12px] max-w-96 w-72"> Tìm kiếm google hoặc nhập một url</p>
