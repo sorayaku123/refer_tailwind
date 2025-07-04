@@ -3,22 +3,18 @@ import { useState } from "react";
 
 function App() {
 
-  const[isOpen, setisOpen] = useState(false)
-  const toggle_side = () => {
-    isOpen === true ? setisOpen(false): setisOpen(true);
-  }
+  const [isOpen, setIsOpen] = useState(false);
+
+const toggleSidebar = () => {
+  setIsOpen(!isOpen);
+};
   return (
     <div> 
       {
-        isOpen ? <div class="toogle fixed bg-black py-20 text-white transition left duration 200 ease-in w-40">
-             toggle side bar show
-             <p onClick={toggle_side}> 
-              close
-             </p>
-      </div>  : 
-            <div onClick={toggle_side}>
-         sidebar
-      </div>
+        isOpen ? <div className={`fixed top-0 bg-black h-32 w-20 transition-all duration-200 ease-in-out ${isOpen ? 'left-0' : '-left-[350px]'}`}>
+         <p class="text-white" onClick={toggleSidebar}> close </p>
+</div> : 
+           <button onClick={toggleSidebar} class="text-black mt-10">Toggle</button>
       }
       <div class="flex items-center justify-end pr-2 text-base sm:text-sm xl:text-base">
         <p class="mr-2"> gmail </p>
