@@ -7,7 +7,6 @@ function App() {
   const toggle_side = () => {
     isOpen === true ? setisOpen(false): setisOpen(true);
   }
-
   return (
     <div> 
       {
@@ -16,16 +15,12 @@ function App() {
              <p onClick={toggle_side}> 
               close
              </p>
-      </div>
-      : 
+      </div>  : 
             <div onClick={toggle_side}>
          sidebar
       </div>
-
       }
-  
-
-      <div class="flex items-center justify-end pr-2 text-xs sm:text-sm xl:text-base">
+      <div class="flex items-center justify-end pr-2 text-base sm:text-sm xl:text-base">
         <p class="mr-2"> gmail </p>
         <p> hình ảnh </p>
         <img src="/info.png" class="w-4 mx-2"/>
