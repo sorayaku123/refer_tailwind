@@ -8,3 +8,6 @@ img{
     object-fit: cover;
 }
 
+a{
+    cursor: pointer;
+}
