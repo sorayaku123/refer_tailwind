@@ -9,8 +9,8 @@ function App() {
     <div className="flex justify-around items-center">
      <img src="/Sang.png" className="object-cover h-20 w-20"/>
      <div className="flex items-center">
-     <a className="text-sky-500 mr-2"> Contact </a>
-     <a className="text-sky-500"> About me </a>
+     <a className="text-blue-300 mr-2"> Contact </a>
+     <a className="text-blue-200"> About me </a>
      </div>
     </div>
 
