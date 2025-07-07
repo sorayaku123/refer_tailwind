@@ -27,10 +27,10 @@ function App() {
       <p> phone: +04 0907035042 </p>
       <div class="flex gap-2 justify-center mr-2">
       <a href="https://www.facebook.com/messages/e2ee/t/9238101126304664/">
-        <img src="/messenger.png" className="h-7 w-7 mt-4 cursor-pointer xl:h-12 xl:w-12"/>
+        <img src="/messenger.png" className="h-8 w-8 mt-4 cursor-pointer xl:h-12 xl:w-12"/>
       </a>
       <a href="https://www.linkedin.com/in/sang-nguyen-37071736b/">
-        <img src="/linkedin.png" className="h-7 w-7 mt-4 cursor-pointer xl:h-12 xl:w-12"/>
+        <img src="/linkedin.png" className="h-8 w-8 mt-4 cursor-pointer xl:h-12 xl:w-12"/>
       </a>
       </div>
     </div>
