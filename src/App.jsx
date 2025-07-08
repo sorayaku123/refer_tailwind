@@ -6,8 +6,8 @@ function App() {
 
   return (
   <div className="bg-gradient-to-t from-violet-200 to-fuchsia-500 h-screen xl:text-xl font-serif">
-    <div className="flex justify-around items-center">
-     <img src="/Sang.png" className="h-14 w-14"/>
+    <div className="flex items-center justify-beetween px-2">
+     <img src="/Sang.png" className="rounded-full w-14 h-14 mx-auto border-2 border-white shadow-xl ml-2"/>
      <div className="flex items-center">
      <a className="text-blue-300 mr-2"> Contact </a>
      <a className="text-blue-200"> About me </a>
@@ -29,7 +29,7 @@ function App() {
          <div className="text-white text-left mt-10 italic xl:text-lg">
       <p> email: sorayku42@gmail.com </p>
       <p classname="mb-2"> phone: +04 0907035042 </p>
-      <a href="https://github.com/sorayaku123?tab=repositories" target="_blank" class="text-blue-600 hover:text-blue-800">
+      <a href="https://github.com/sorayaku123?tab=repositories" target="_blank" class="text-blue-600 hover:text-blue-800 mt-2">
              My GitHub Projects
       </a>
        <a href="https://ref-inky.vercel.app/" target="_blank" class="text-blue-600 hover:text-blue-800 block">
@@ -38,6 +38,8 @@ function App() {
        <a href="https://mamspa-olive.vercel.app/" target="_blank" class="text-blue-600 hover:text-blue-800">
              Mamspa Business Page
       </a>
+
+      <p className="text-gray-500 font-light mt-1"> I build with care and clarity</p>
 
       <div class="flex gap-2 justify-center mr-2">
       <a href="https://www.facebook.com/hika.love.282669/">
