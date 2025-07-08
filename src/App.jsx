@@ -7,7 +7,7 @@ function App() {
   return (
   <div className="bg-gradient-to-t from-violet-200 to-fuchsia-500 h-screen xl:text-xl font-serif">
     <div className="flex items-center justify-beetween px-2">
-     <img src="/Sang.png" className="rounded-full w-14 h-14 mx-auto border-2 border-sky-200 shadow-xl ml-2"/>
+     <img src="/Sang.png" className="rounded-full w-14 h-14 mx-auto border-2 border-sky-200 shadow-xl ml-2 md:w-16 md:h-16"/>
      <div className="flex items-center">
      <a className="text-blue-300 mr-2"> Contact </a>
      <a className="text-blue-200"> About me </a>
